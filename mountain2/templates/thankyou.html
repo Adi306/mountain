@@ -1,0 +1,108 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Thank you</title>
+  <link rel="stylesheet" href="css/main_css.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
+
+<link href="{{ url_for('static', filename='css/main_css.css') }}" rel="stylesheet">
+
+<body>
+  <header>
+    <nav class="navbar navbar-default active" style="background-image: url('./static/wave-header2.svg');  background-size:cover;background-repeat:no-repeat;background-position:top;"  >
+      <div class="container" >
+        <div class="navbar-header"  >
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/" value='/'title="">
+            <img src="./static/mounticon2.jpg" class="navbar-logo-img" alt="" >
+            <b id=mynav>Personality </b>
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/" value='/' title="">Home</a></li>
+            <li><a href="/about" value='/about'title="">About our project</a></li>
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <div >
+
+    <h2>Thank You for Giving the Test </h2>
+  </div>
+  <div class="middle-container">
+  <div class="profile">
+
+    <h2>Predicted Test Result</h2>
+    <h3><p class="intro">{{prediction_text}} </p></h3>
+
+    </p>
+
+  </div>
+<br>
+  <div class="contact-me">
+    <hr>
+
+    <br><br>
+    <h2>Get In Touch</h2>
+    <h3>Know yourself before you know the world</h3>
+    <br><br>
+    <p class="p1">You can contact us anytine through our email, we will reach to you as soon as possible!!</p>
+    <br><br>
+    <a class="butn" href="mailto:name@email.com">CONTACT US</a>
+  </div>
+
+
+
+  <footer class="footer-container white-text-container" style="background-image: url('./static/wave-footer2.svg');  background-size:cover;background-repeat:no-repeat;background-position:top;">
+  <div class="container">
+    <div class="row">
+
+
+      <div class="col-xs-12">
+        <h3 id=foot>Personality</h3>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-7">
+            <p id=foot><small> Dimple Chandnani <br> Aditya Pangaonkar</small>
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-5">
+            <p class="text-right">
+              <a href="https://facebook.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="https://twitter.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="end">
+</div>
+</body>
+
+</html>
